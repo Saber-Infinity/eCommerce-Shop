@@ -1,0 +1,415 @@
+/* Start Main Rules */
+body { 
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.asterisk 
+{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    color: #D20707;
+    font-size: 16px;
+}
+/* End Main Rules */
+
+/* Start Login Form */
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 
+{ 
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.login input { margin-bottom: 10px; }
+
+.login .form-control { background-color: #E5E5E5; }
+
+.login .btn { background-color: #008dde; }
+
+/* End Login Form */
+
+/* Start Bootstrap Navbar Edits */
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand { font-size: 1em; }
+
+.nav > li > a,
+.navbar-brand
+{ padding: 15px 25px; }
+
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open >a:hover,
+.dropdown-menu
+{ background-color: #3498db; }  
+
+.dropdown-menu
+{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-right .dropdown-menu
+{
+    right: auto;
+    left: 0;
+}
+
+.dropdown-menu > li > a 
+{ 
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    padding-left: 25px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #FFF;
+    background-color: darkviolet;
+}
+
+/* End Bootstrap Navbar Edits */
+
+.form-control { position: relative; }
+
+/*  Start Dashboard Page */
+.home-stats .stat
+{
+    background-color: #EEE;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i 
+{   
+    position: absolute;
+    font-size: 60px;
+    top: 50px;
+    left: 25px;
+}
+
+.home-stats .stat .info
+{
+    float: right;
+}
+
+.home-stats .stat span
+{
+    display: block;
+    font-size: 60px;
+}
+
+.home-stats .stat span a { color: #FFF; }
+
+.home-stats .stat span a:hover { text-decoration: none; }
+
+.home-stats .st-members { background-color: #3498db; }
+
+.home-stats .st-pending { background-color: #c0392b; }
+
+.home-stats .st-items { background-color: #d35400; }
+
+.home-stats .st-comments { background-color: #8e44ad; }
+
+.latest { margin-top: 30px; }
+
+.latest .toggle-info { color: #999; }
+
+.latest .toggle-info:hover 
+{
+    color: #444;
+    cursor: pointer;
+}
+
+.latest-users { margin-bottom: 0; }
+
+.latest-users li
+{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd) { background-color: #EEE; }
+
+.latest-users .btn-success,
+.latest-users .btn-info { padding: 2px 8px; }
+
+.latest-users .btn-info { margin-right: 5px; }
+
+.latest .comment-box { margin: 5px 0 10px; }
+
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment { float: left; }
+
+.latest .comment-box .member-name 
+{ 
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.latest .comment-box .member-comment 
+{
+    width: calc(100% - 100px);
+    background-color: #EFEFEF;
+    padding: 10px;
+    position: relative;
+}
+
+.latest .comment-box .member-comment:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #EFEFEF transparent transparent;
+    border-width: 15px;
+}
+
+/*  End Dashboard Page */ 
+
+/* Start Members Page */
+
+h1
+{
+    font-size: 50px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -3px;
+}
+
+.members    /* Form */
+{
+    width: 75%;
+    font-family: "Droid Serif", sans-serif, "Droid Sans";   
+}
+
+.show-pass
+{
+    position: absolute;
+    top: 6px;
+    right: -30px;
+    cursor: pointer;
+    
+}
+
+.manage-image img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.main-container { min-width: 1288px; }
+.main-table 
+{
+    -webkit-box-shadow: 0 10px 10px #CCC;
+    -moz-box-shadow: 0 10px 10px #CCC;
+    -o-box-shadow: 0 10px 10px #CCC;
+    box-shadow: 0 10px 10px #CCC;
+}
+
+.main-table td 
+{
+    background-color: #FFF;
+    vertical-align: middle !important;
+    max-width: 345px;
+}
+
+.main-table tr:first-child td   /* You Can Use Thead */
+{
+    background-color: #333;
+    color: #FFF;
+}
+
+.activate { margin-left: 5px; }
+
+.add-member-btn { margin-bottom: 50px; }    /* Manage Member */
+
+.add-item-btn { margin-bottom: 50px; }  /* Manage Item */
+
+/* End Members Page */
+
+/**** Start Category Page *****/
+
+/* Start Panel Heading */
+
+.panel-default > .panel-heading
+{
+    color: #959595;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.option a
+{
+    color: #888;
+    text-decoration: none;
+}
+
+.option span
+{
+    color: #888;
+    cursor: pointer;
+}
+
+.option .active { color: #F00; }
+
+/* End Panel Heading */
+
+/* Start Panel Body */
+
+.categories { padding: 0; }
+
+.categories .cat 
+{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .cat:hover { background-color: #EEE; }
+
+.categories .cat:hover .hidden-buttons { right: 10px; }
+
+.categories .cat .hidden-buttons
+{
+    position: absolute;
+    top: 15px;
+    right: -125px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.categories .cat .hidden-buttons a { margin-right: 5px; }
+
+.categories .cat h3 
+{ 
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #a59e9e;
+}
+
+.categories .cat .full-view p
+{
+    margin: 10px 0;
+    color: #707070;
+}
+
+.categories .cat .visibility,
+.categories .cat .commenting,
+.categories .cat .advertising
+{
+    color: #FFF;
+    padding: 5px 8px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.categories .cat .visibility { background-color:  #bdc3c7; }
+
+.categories .cat .commenting { background-color: #3498db; }
+
+.categories .cat .advertising { background-color: #c0392b; }
+    
+.categories .cat:last-of-type ~ hr { display: none; }   /* ~ [Next Item] */
+
+.categories hr 
+{
+    border-top: 2px dashed #EEE;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories .child-head
+{
+    margin: 15px 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #22ab79;
+}
+
+.categories .child-cats
+{
+    margin: 0;
+}
+
+.categories .child-cats li
+{
+    margin-left: 15px; 
+}
+
+.categories .child-cats li:before
+{
+    content: "- ";
+}
+
+.categories .show-delete
+{ 
+    color: #F00;
+    display: none;
+}
+
+/* End Panel Body */
+
+.add-category 
+{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+/**** End Category Page ****/
+
+/**** Start Item Page ****/
+
+
+/* Start Select Box [Add Section] */
+.selectboxit-container span,
+.selectboxit-container .selectboxit-options a
+{
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+}
+
+/* End Select Box */
+
+/**** End Item Page ****/
+
+
+
+
+
