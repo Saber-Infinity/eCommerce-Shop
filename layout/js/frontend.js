@@ -72,14 +72,11 @@ $(document).ready(function () {
 
     // Test Read More...
     
-    $('.item-box .caption p .show-hide').click(function () {
+    $('.item-box .caption p #show-hide').click(function () {
 
-        $(this).prev().fadeIn(0, function () {
+         $(this).prev('#hide').fadeIn();
 
-            $(this).hide();
-
-        });
-
+         $(this).hide();
+        
     });
-
 });
