@@ -26,8 +26,12 @@
                         }
     					echo "<div class='caption'>";
     						echo "<h3>"."<a href='items.php?itemid=".$item['ItemID']."'>".$item['Name']."</a> </h3>";
-    						$piece = substr($item['Description'], 0, 40);
-                            echo "<p>".$piece."...<span>See More</span>"."</p>";
+    						$piece1 = substr($item['Description'], 0, 30);
+						$theRest = substr($item['Description'], 30);
+						echo "<p>". $piece1;
+							echo "<span id='hide'>" . $theRest . "</span>"; 
+							echo "<span id='show-hide'>...See More</span>";
+						echo "</p>";
                             echo "<div class='date'>".$item['Add_Date']."</div>";
     					echo "</div>";
     				echo "</div>";
